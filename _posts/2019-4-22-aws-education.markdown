@@ -3,7 +3,7 @@ layout:     post
 title:      "在校大学生注册 AWS Educate 获取 $150 优惠代码"
 subtitle:   "150 刀开两台 5 刀月付 Lightsail 岂不美哉？"
 date:       2019-4-22
-author:     "Kafuziroh"
+author:     "AmzrK2"
 header-img: "img/post-bg/post-bg-aws-educate.jpg"
 catalog:    true
 tags:

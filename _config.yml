@@ -52,7 +52,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: amzrk2
+# disqus_username: amzrk2
 # Netease settings
 netease_comment: false
 
@@ -60,7 +60,7 @@ netease_comment: false
 # Baidu Analytics
 #ba_track_id: [your track id]
 # Google Analytics
-ga_track_id: 'UA-138299941-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-146011233-1'            # Format: UA-xxxxxx-xx
 ga_domain: blog.amzrk2.cc
 
 # Sidebar settings
@@ -83,7 +83,7 @@ page-mathjax: false
 friends: [
     {
         title: "神楽めあ直播录像 录播站",
-        href: "https://kaguramea.live"
+        href: "https://kaguramea-record.github.io"
     },{
         title: "神楽めあ相关 数据统计",
         href: "https://mea.reckoningslug.name/d/NKo91cCmk/mea"

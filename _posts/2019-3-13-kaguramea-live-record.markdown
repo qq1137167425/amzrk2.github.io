@@ -3,7 +3,7 @@ layout:     post
 title:      "神楽めあ 直播录像 | KaguraMea Live Record"
 subtitle:   "夢じゃないや"
 date:       2019-3-13
-author:     "Kafuziroh"
+author:     "AmzrK2"
 header-img: "img/404-bg.jpg"
 catalog:    true
 tags:
