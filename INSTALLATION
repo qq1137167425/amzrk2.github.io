@@ -1,0 +1,7 @@
+http://rubyinstaller.org/downloads/
+gem install jekyll
+gem install rouge
+gem install wdm
+gem install jekyll-paginate
+jekyll serve
+jekyll clean
