@@ -9,11 +9,11 @@
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    Powered by <a href="https://blog.kafuziroh.cc">Kafuziroh</a> | Template from <a href="https://huangxuan.me">Hux</a> |
+                    Powered by <a href="https://amzrk2.cc">AmzrK2</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=Kafuziroh&repo=kafuziroh.github.io&type=star&count=true" >
+                        src="https://ghbtns.com/github-btn.html?user=amzrk2&repo=amzrk2.github.io&type=star&count=false" >
                     </iframe>
                 </p>
             </div>
@@ -68,8 +68,6 @@
     <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 -->
 
-
-
 {% if page.title == 'Archive' %}
 <!-- jquery.tagcloud.js -->
 <script>
@@ -92,26 +90,6 @@
     })
 </script>
 
-
-<!-- Google Analytics -->
-{% if site.ga_track_id %}
-<script>
-    // dynamic User by Hux
-    var _gaId = '{{ site.ga_track_id }}';
-    var _gaDomain = '{{ site.ga_domain }}';
-
-    // Originial
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', _gaId, _gaDomain);
-    ga('send', 'pageview');
-</script>
-{% endif %}
-
-
 <!-- Baidu Tongji -->
 {% if site.ba_track_id %}
 <script>
@@ -128,7 +106,6 @@
     })();
 </script>
 {% endif %}
-
 
 <!-- Side Catalog -->
 {% if page.catalog %}
