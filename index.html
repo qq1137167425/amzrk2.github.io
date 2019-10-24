@@ -18,7 +18,7 @@
     <!-- Bootstrap 4 core CSS -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <!-- Custkom styles -->
+    <!-- Custom styles -->
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
@@ -64,78 +64,83 @@
 
         <div class="jumbotron">
             <div class="container">
-                <h1 class="display-3" id="mainHead">FINAL FANTASY XIV <br /> <span
-                        class="text-muted">SHADOWBRINGERS</span></h1>
+                <h1 class="display-3" id="mainHead">FINAL FANTASY XIV <br />
+                    <span class="text-muted">SHADOWBRINGERS</span></h1>
                 <p>Hope is not yet lost, for where there is light there is shadow.</p>
-                <p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a>
-                    <a class="btn btn-primary btn-lg" href="http://ff.sdo.com/" role="button">Official site &raquo;</a>
-                </p>
+                <a class="btn btn-primary btn-lg mt-1"
+                    href="http://act.ff.sdo.com/project/190920shadowbringers/index.html" target="_blank"
+                    role="button">Learn more &raquo;</a>
+                <a class="btn btn-primary btn-lg mt-1" href="http://ff.sdo.com/" target="_blank" role="button">Official
+                    site &raquo;</a>
             </div>
         </div>
 
+        <!-- Align jumbotron -->
         <div class="container">
-            <!-- Example row of columns -->
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>FFXIV Side Stories</h2>
-                    <h5 class="text-secondary">最终幻想14 短篇故事集</h4>
-                        <p>展现一个更生动、真实、全面的艾欧泽亚。</p>
-                        <p>
-                            <a class="btn btn-secondary" href="https://amzrk2.cc/ff14-storylite/" target="_blank"
+            <!-- Card contents -->
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-4 mb-4">
+                        <h2>FFXIV Side Stories</h2>
+                        <h5 class="text-secondary">最终幻想14 短篇故事集</h4>
+                            <p>展现一个更生动、真实、全面的艾欧泽亚。</p>
+                            <a class="btn btn-secondary mt-1" href="https://amzrk2.cc/ff14-storylite/" target="_blank"
                                 role="button">GitHub Pages &raquo;</a>
-                            <a class="btn btn-secondary" href="https://amzrk2.gitee.io/ff14-storylite/" target="_blank"
-                                role="button">Gitee Pages &raquo;</a>
-                        </p>
+                            <a class="btn btn-secondary mt-1" href="https://amzrk2.gitee.io/ff14-storylite/"
+                                target="_blank" role="button">Gitee Pages &raquo;</a>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <h2>FFXIV Cactpot Solver</h2>
+                        <h5 class="text-secondary">最终幻想14 仙人微彩计算器</h4>
+                            <p>今天又是没有一万金碟币的一天呢。</p>
+                            <a class="btn btn-secondary mt-1" href="https://amzrk2.cc/ff14-cactpot/" target="_blank"
+                                role="button">GitHub Pages &raquo;</a>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <h2>Nothing here...</h2>
+                        <h5 class="text-secondary">Nothing here...</h4>
+                            <p>Nothing here...</p>
+                            <a class="btn btn-secondary mt-1 disabled" href="#" target="_blank"
+                                role="button">Unavailable &raquo;</a>
+                    </div>
+
                 </div>
-                <div class="col-md-4">
-                    <h2>Template</h2>
-                    <p>Nothing here.</p>
-                    <p><a class="btn btn-secondary disabled" href="#" role="button" aria-disabled="true">View details
-                            &raquo;</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h2>Template</h2>
-                    <p>Nothing here.</p>
-                    <p><a class="btn btn-secondary disabled" href="#" role="button" aria-disabled="true">View details
-                            &raquo;</a></p>
-                </div>
+
             </div>
-
-            <hr>
-
-        </div> <!-- /container -->
-
+        </div>
     </main>
 
-    <footer class="container">
-        <p>&copy; Copyright 2019 AmzrK2</p>
+    <footer class="footer-copyright mt-2">
+        <div class="container-fluid text-center py-2 bg-dark text-white-50">&copy; Copyright 2019 <a
+                class="copyrightLink" href="https://twitter.com/AmzrK2" target="_blank">AmzrK2</a></div>
     </footer>
 
     <script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.4.1/jquery.slim.min.js">
     </script>
-    <script type="text/javascript" src="https://cdn.staticfile.org/popper.js/1.15.0/esm/popper.min.js">
+    <script type="text/javascript" src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js">
     </script>
     <script type="text/javascript" src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js">
     </script>
 
-    <!-- Old solution of djustable title font size -->
-    <!--
+    <!-- Adjustable title font size (jQuery) -->
     <script>
         $(function () {
             if ($(window).width() < 576) {
-                $("#mainHead").attr("class", "h1");
+                $("#mainHead").attr("class", "display-4");
             }
         })
         $(window).resize(function () {
             if ($(window).width() < 576) {
-                $("#mainHead").attr("class", "h1");
-            } else {
                 $("#mainHead").attr("class", "display-4");
+            } else {
+                $("#mainHead").attr("class", "display-3");
             }
         })
     </script>
-    -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146011233-1"></script>
     <script>
