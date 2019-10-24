@@ -19,27 +19,7 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!-- Custkom styles -->
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-
-        /* Move down content because we have a fixed navbar that is 3.5rem tall */
-        body {
-            padding-top: 3.5rem;
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
@@ -84,7 +64,8 @@
 
         <div class="jumbotron">
             <div class="container">
-                <h1 class="display-4">FINAL FANTASY XIV <br /> SHADOWBRINGERS</h1>
+                <h1 class="display-3" id="mainHead">FINAL FANTASY XIV <br /> <span
+                        class="text-muted">SHADOWBRINGERS</span></h1>
                 <p>Hope is not yet lost, for where there is light there is shadow.</p>
                 <p>
                     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a>
@@ -101,8 +82,10 @@
                     <h5 class="text-secondary">最终幻想14 短篇故事集</h4>
                         <p>展现一个更生动、真实、全面的艾欧泽亚。</p>
                         <p>
-                            <a class="btn btn-secondary" href="https://amzrk2.cc/ff14-storylite/" target="_blank" role="button">GitHub Pages &raquo;</a>
-                            <a class="btn btn-secondary" href="https://amzrk2.gitee.io/ff14-storylite/" target="_blank" role="button">Gitee Pages &raquo;</a>
+                            <a class="btn btn-secondary" href="https://amzrk2.cc/ff14-storylite/" target="_blank"
+                                role="button">GitHub Pages &raquo;</a>
+                            <a class="btn btn-secondary" href="https://amzrk2.gitee.io/ff14-storylite/" target="_blank"
+                                role="button">Gitee Pages &raquo;</a>
                         </p>
                 </div>
                 <div class="col-md-4">
@@ -129,10 +112,30 @@
         <p>&copy; Copyright 2019 AmzrK2</p>
     </footer>
 
-    <script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.4.1/jquery.slim.min.js"></script>
-    <script type="text/javascript" src="https://cdn.staticfile.org/popper.js/1.15.0/esm/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.4.1/jquery.slim.min.js">
+    </script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/popper.js/1.15.0/esm/popper.min.js">
+    </script>
     <script type="text/javascript" src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js">
     </script>
+
+    <!-- Old solution of djustable title font size -->
+    <!--
+    <script>
+        $(function () {
+            if ($(window).width() < 576) {
+                $("#mainHead").attr("class", "h1");
+            }
+        })
+        $(window).resize(function () {
+            if ($(window).width() < 576) {
+                $("#mainHead").attr("class", "h1");
+            } else {
+                $("#mainHead").attr("class", "display-4");
+            }
+        })
+    </script>
+    -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146011233-1"></script>
     <script>
