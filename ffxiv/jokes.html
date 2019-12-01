@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html lang="zh" class="h-100">
 
 <head>
     <meta charset="utf-8">
@@ -11,9 +11,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
 
-    <meta name="description" content="AmzrK2 Intro">
+    <meta name="description" content="AmzrK2 FFXIV Jokes">
     <meta name="author" content="AmzrK2">
-    <title>AmzrK2 Intro</title>
+    <title>AmzrK2 FFXIV Jokes</title>
 
     <!-- jQuery -->
     <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
@@ -29,7 +29,13 @@
     <script src="https://cdn.staticfile.org/font-awesome/5.11.2/js/all.min.js"></script>
 
     <!-- Custom styles -->
-    <link rel="stylesheet" href="/assets/css/cover.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Move down content 3.5 rem because we have a fixed navbar and padding of title fonts*/
+        body {
+            padding-top: 3.5rem;
+        }
+    </style>
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -43,8 +49,8 @@
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-home"></i> Home</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="/"><i class="fa fa-home"></i> Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/ffxiv/"><i class="fa fa-gamepad"></i> FFXIV</a>
@@ -54,6 +60,7 @@
                 </li>
             </ul>
             <!-- Language Selector -->
+            <!--
             <ul class="navbar-nav ml-md-auto">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="languageSelector"
@@ -65,26 +72,32 @@
                     </div>
                 </li>
             </ul>
+            -->
         </div>
     </nav>
 
-    <!-- https://stackoverflow.com/a/42646895 -->
-    <main class="h-100 d-flex align-items-center" role="main">
-        <div class="container">
+    <main role="main">
+        <div class="container py-3">
 
-            <h1 class="display-5 text-white" id="subHead">
-                これは——<br />
-                僕と彼女だけが知っている、<br />
-                世界の秘密についての物語。
-            </h1>
-            <h2 class="display-3 text-white" id="mainHead">Weathering with You</h2>
-            <!-- Button mt-1 to add space while on small screen-->
-            <a class="btn btn-primary btn-lg mt-4 ml-2" href="https://www.imdb.com/title/tt9426210/" target="_blank"
-                role="button">IMDb &raquo;</a>
-            <a class="btn btn-primary btn-lg mt-4 ml-2" href="https://www.tenkinoko.com/" target="_blank"
-                role="button">Official site &raquo;</a>
-            <a class="btn btn-primary btn-lg mt-4 ml-2" href="https://www.bilibili.com/" target="_blank"
-                role="button">bilibili &raquo;</a>
+            <div class="row">
+                <!-- Tabs -->
+                <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="vpills-patch" role="tablist">
+                        <a class="nav-link active" id="vpills-508" data-toggle="pill" href="#vpills-508-content"
+                            role="tab">Patch 5.08</a>
+                        <a class="nav-link" id="vpills-510" data-toggle="pill" href="#vpills-510-content"
+                            role="tab">Patch 5.1</a>
+                    </div>
+                </div>
+                <!-- Contents -->
+                <div class="col-9">
+                    <div class="tab-content" id="vpills-content">
+                        <div class="tab-pane fade show active" id="vpills-508-content" role="tabpanel">1</div>
+                        <div class="tab-pane fade" id="vpills-510-content" role="tabpanel">2</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </main>
 
@@ -94,21 +107,12 @@
             <a class="text-white" href="https://twitter.com/AmzrK2" target="_blank">AmzrK2</a>
         </div>
         <div class="container-fluid text-center pb-2 bg-dark text-white-50">
-            <i class="fas fa-copyright"></i> 2019 「天気の子」製作委員会
+            <i class="fas fa-copyright"></i> FINAL FANTASY, FINAL FANTASY XIV,
+            FFXIV and SHADOWBRINGERS are registered trademarks of Square Enix Holdings Co., Ltd.
         </div>
     </footer>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146011233-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-146011233-1');
-    </script>
 </body>
 
 </html>
