@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Product Sans;
+    font-style: italic;
+    font-weight: 400;
+    src: local('Product Sans Italic'), local('ProductSans-Italic'), url(/assets/pdsans/pdsans-i.ttf);
+}
+
+@font-face {
+    font-family: Product Sans;
+    font-style: italic;
+    font-weight: 700;
+    src: local('Product Sans Bold Italic'), local('ProductSans-BoldItalic'), url(/assets/pdsans/pdsans-bi.ttf);
+}
+
+@font-face {
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Product Sans'), local('ProductSans-Regular'), url(/assets/pdsans/pdsans.ttf);
+}
+
+@font-face {
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Product Sans Bold'), local('ProductSans-Bold'), url(/assets/pdsans/pdsans-b.ttf);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Product Sans', 'Helvetica Neue', 'Arial', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
