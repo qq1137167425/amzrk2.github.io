@@ -10,11 +10,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://amzrk2.cc" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social network
 twitter_username: AmzrK2
 github_username: amzrk2
+
+# Google Analytics
+google_analytics: UA-146011233-1
 
 # Markdown settings, e.g. https://jekyllrb.com/docs/configuration/markdown/
 markdown: kramdown

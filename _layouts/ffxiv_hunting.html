@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="h-100">
+
+{%- include head.html -%}
+
+<body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">AmzrK2</a>
+        <!-- Collapse navbar on small devices -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/ffxiv/"><i class="fas fa-arrow-circle-left"></i>
+                        返回服务器页面</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ page.edit_this_page }}" target="_blank"><i
+                           class="fas fa-exclamation-circle"></i>
+                        提交问题「纠错或更新」</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main">
+        <div class="container py-4">
+            <div class="alert alert-success">
+                最后更新时间 {{ page.latest_update }}
+            </div>
+            <div class="text-center" style="white-space: nowrap;">
+
+                {{ content }}
+
+            </div>
+        </div>
+    </main>
+
+    {%- include footer.html -%}
+
+</body>
+
+</html>
