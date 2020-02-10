@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html class="h-100">
+
+{%- include head.html -%}
+
+<body class="d-flex flex-column h-100">
+
+    {%- include navigation.html -%}
+
+    {{ content }}
+
+    {%- include footer.html -%}
+
+    {%- if page.google_analytics -%}
+    {%- include google_analytics.html -%}
+    {%- endif -%}
+
+</body>
+
+</html>

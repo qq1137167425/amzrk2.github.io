@@ -1,0 +1,15 @@
+<footer class="footer mt-auto">
+    <div class="container-fluid {% if page.show_ex_copyright %}pt-2{% else %}py-2{% endif %}
+                text-center bg-dark text-white-50">
+        <i class="fas fa-copyright"></i> 2019-2020 <a class="text-white"
+           href="https://twitter.com/{{ site.twitter_username }}"
+           target="_blank">{{ page.author }}</a>
+    </div>
+    <!-- If this page has other copyright available -->
+    {% if page.show_ex_copyright %}
+    <div class="container-fluid pb-2
+                text-center bg-dark text-white-50">
+        <i class="fas fa-copyright"></i> {{ page.ex_copyright }}
+    </div>
+    {% endif %}
+</footer>

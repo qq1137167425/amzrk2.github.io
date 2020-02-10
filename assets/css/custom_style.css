@@ -1,3 +1,5 @@
+/* index.html */
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -13,7 +15,7 @@
   }
 }
 
-/* Move down content 3.5 rem because we have a fixed navbar and padding of title fonts*/
+/* Move down content 3.5 rem because we have a fixed navbar and padding of title fonts */
 main {
   margin-top: 3.5rem;
   background: url(https://i.loli.net/2020/01/02/MNwzK3Z5gD1bQSU.jpg) no-repeat center center fixed;

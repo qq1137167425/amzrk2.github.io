@@ -1,2 +1,6 @@
-node_modules
-.vscode
+.bundle
+.jekyll-cache
+.sass-cache
+Gemfile.lock
+_site
+*.gem
