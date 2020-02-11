@@ -5,6 +5,7 @@ author: AmzrK2
 ex_copyright: 2009-2020 Square Enix Holdings Co., Ltd.
 edit_this_page: https://github.com/amzrk2/amzrk2.github.io/edit/master/ffxiv/fatcat.md
 latest_update: 2020-02-08
+changelog: /ffxiv/fatcat.txt
 layout: ffxiv_hunting
 ---
 
