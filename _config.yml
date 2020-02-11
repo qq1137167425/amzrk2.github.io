@@ -16,6 +16,11 @@ url: "https://amzrk2.cc" # the base hostname & protocol for your site, e.g. http
 twitter_username: AmzrK2
 github_username: amzrk2
 
+# Utterances
+utterances_repo: amzrk2/utterances-dedicated
+utterances_issue_term: pathname
+utterances_theme: github-light
+
 # Google Analytics
 google_analytics: UA-146011233-1
 

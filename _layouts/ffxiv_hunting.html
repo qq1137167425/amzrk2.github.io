@@ -20,14 +20,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ page.edit_this_page }}" target="_blank"><i
                            class="fas fa-exclamation-circle"></i>
-                        提交问题「纠错或更新」</a>
+                        提交问题</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#comments"><i class="fas fa-comments"></i>
+                        在本页直接进行评论</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <main role="main">
-        <div class="container py-4">
+        <div class="container pt-4">
             <div class="alert alert-success">
                 最后更新时间 {{ page.latest_update }}
             </div>
@@ -36,6 +40,11 @@
                 {{ content }}
 
             </div>
+        </div>
+        <div class="container pb-4" id="comments">
+
+            {%- include utterances_comments.html -%}
+
         </div>
     </main>
 
