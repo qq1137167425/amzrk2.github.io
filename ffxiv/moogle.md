@@ -20,7 +20,7 @@ layout: ffxiv_hunting
 | 拂晓之间     | -     | 13:00 | 21:00 | -     | 雷克兰德 | -        | -                                  |
 | 龙巢神殿     | -     | -     | 22:00 | -     | 雷克兰德 | -        | -                                  |
 | 梦羽宝境     | -     | -     | -     | -     | -        | -        | 不定时开车，本大区各大狩猎群会通知 |
-{:class="table table-sm table-striped table-bordered table-responsive-xl"}
+{:class="table table-sm table-striped table-dark table-responsive-xl"}
 
 #### 4.0 狩猎车
 
@@ -34,7 +34,7 @@ layout: ffxiv_hunting
 | 拂晓之间     | -  | -     | -     | -              | -        | 暂无4.0狩猎车 |
 | 龙巢神殿     | -  | -     | 23:00 | 基拉巴尼亚边区 | -        | -             |
 | 梦羽宝境     | -  | -     | 00:30 | 基拉巴尼亚边区 | -        | -             |
-{:class="table table-sm table-striped table-bordered table-responsive-xl"}
+{:class="table table-sm table-striped table-dark table-responsive-xl"}
 
 #### 其他狩猎相关内容
 

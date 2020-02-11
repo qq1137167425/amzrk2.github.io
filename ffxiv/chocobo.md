@@ -20,7 +20,7 @@ layout: ffxiv_hunting
 | 宇宙和音     | 08:00 | 14:00 | 20:00 | 02:00 | 雷克兰德 | 湖-岛-沙漠-妖精乡-森林-海 | -                                        |
 | 沃仙曦染     | 10:00 | -     | 20:30 | -     | 雷克兰德 | 湖-妖精乡-森林-沙漠-岛-海 | -                                        |
 | 晨曦王座     | -     | -     | 23:00 | -     | 雷克兰德 | 湖-岛-妖精乡-森林-沙漠-海 | -                                        |
-{:class="table table-sm table-striped table-bordered table-responsive-xl"}
+{:class="table table-sm table-striped table-dark table-responsive-xl"}
 
 #### 4.0 狩猎车
 
@@ -35,7 +35,7 @@ layout: ffxiv_hunting
 | 宇宙和音「晚」 | -     | -     | 19:30 | 红玉海         | 海-草-延-边-山-湖 | 早车晚车路线不同          |
 | 沃仙曦染       | -     | -     | 23:00 | 基拉巴尼亚边区 | 边-山-湖-海-草-延 | -                         |
 | 晨曦王座       | -     | 16:00 | 22:30 | 基拉巴尼亚边区 | 边-山-湖-海-草-延 | 午车不定时开放            |
-{:class="table table-sm table-striped table-bordered table-responsive-xl"}
+{:class="table table-sm table-striped table-dark table-responsive-xl"}
 
 #### 其他狩猎相关内容
 
@@ -49,4 +49,4 @@ layout: ffxiv_hunting
 | 宇宙和音 | 704056881                              |
 | 沃仙曦染 | 641096127                              |
 | 晨曦王座 | 1013248585                             |
-{:class="table table-sm table-striped table-bordered table-responsive-md"}
+{:class="table table-sm table-striped table-dark table-responsive-md"}

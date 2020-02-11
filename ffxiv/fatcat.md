@@ -19,7 +19,7 @@ layout: ffxiv_hunting
 | 海猫茶屋     | -     | 13:00 | 21:00 | -     | 雷克兰德 | 湖-岛-沙漠-妖精乡-森林-海 | -                                  |
 | 柔风海湾     | -     | 15:00 | -     | -     | 雷克兰德 | -                         | 5.1第一周每晚十点多开一车          |
 | 琥珀原       | -     | -     | 21:00 | -     | 雷克兰德 | -                         | 试车阶段，请勿随意狩猎，可跨服跟车 |
-{:class="table table-sm table-striped table-bordered table-responsive-xl"}
+{:class="table table-sm table-striped table-dark table-responsive-xl"}
 
 #### 4.0 狩猎车
 
@@ -32,7 +32,7 @@ layout: ffxiv_hunting
 | 海猫茶屋     | -     | 12:30 | 20:30 | 延夏           | 延-草-海-边-山-湖 | -             |
 | 柔风海湾     | 10:00 | -     | 19:30 | 红玉海         | -                 | -             |
 | 琥珀原       | -     | 13:00 | 20:00 | 基拉巴尼亚边区 | 边-山-湖-海-草-延 | -             |
-{:class="table table-sm table-striped table-bordered table-responsive-xl"}
+{:class="table table-sm table-striped table-dark table-responsive-xl"}
 
 #### 其他狩猎相关内容
 
@@ -45,4 +45,4 @@ layout: ffxiv_hunting
 | 海猫茶屋 | 716973291 1012547189                   |
 | 柔风海湾 | 985316415 192691552                    |
 | 琥珀原   | 729104951                              |
-{:class="table table-sm table-striped table-bordered table-responsive-md"}
+{:class="table table-sm table-striped table-dark table-responsive-md"}
