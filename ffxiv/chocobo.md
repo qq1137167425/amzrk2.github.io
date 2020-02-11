@@ -4,7 +4,7 @@ description: FFXIV 国服陆行鸟区狩猎车时间表
 author: AmzrK2
 ex_copyright: 2009-2020 Square Enix Holdings Co., Ltd.
 edit_this_page: https://github.com/amzrk2/amzrk2.github.io/edit/master/ffxiv/chocobo.md
-latest_update: 2020-02-08
+latest_update: 2020-02-11
 changelog: /ffxiv/chocobo.log
 layout: ffxiv_hunting
 ---
@@ -20,7 +20,7 @@ layout: ffxiv_hunting
 | 红玉海       | 08:00 | 15:00 | 22:00 | -     | 雷克兰德 | 湖-妖精乡-森林-沙漠-岛-海 | 抢开者需要劳改                           |
 | 宇宙和音     | 08:00 | 14:00 | 20:00 | 02:00 | 雷克兰德 | 湖-岛-沙漠-妖精乡-森林-海 | -                                        |
 | 沃仙曦染     | 10:00 | -     | 20:30 | -     | 雷克兰德 | 湖-妖精乡-森林-沙漠-岛-海 | -                                        |
-| 晨曦王座     | -     | -     | 23:00 | -     | 雷克兰德 | 湖-岛-妖精乡-森林-沙漠-海 | -                                        |
+| 晨曦王座     | -     | -     | 22:00 | -     | 雷克兰德 | 湖-岛-妖精乡-森林-沙漠-海 | -                                        |
 {:class="table table-sm table-striped table-dark table-responsive-xl"}
 
 #### 4.0 狩猎车
