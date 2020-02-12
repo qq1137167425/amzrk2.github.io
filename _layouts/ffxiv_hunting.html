@@ -31,7 +31,7 @@
     </nav>
 
     <main role="main">
-        <div class="container pt-4">
+        <div class="container py-4">
             <div class="alert alert-success">
                 最后更新时间 {{ page.latest_update }} <a href="{{ page.changelog }}"
                    target="_blank">更新记录</a>
@@ -41,11 +41,6 @@
                 {{ content }}
 
             </div>
-        </div>
-        <div class="container pb-4" id="comments">
-
-            {%- include utterances_comments.html -%}
-
         </div>
     </main>
 
